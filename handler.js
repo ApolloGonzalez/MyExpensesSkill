@@ -7,7 +7,7 @@ const uuid = require('uuid');
 
 exports.handler = function(event, context, callback) {
     const alexa = Alexa.handler(event, context);
-    alexa.APP_ID = "amzn1.ask.skill.1567ac58-cfb2-4e25-aa9f-3086126cee74";
+    alexa.APP_ID = "amzn1.ask.skill.......";
     alexa.registerHandlers(handlers);
     alexa.execute();
 };
